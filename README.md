@@ -14,7 +14,6 @@ Este projeto foi desenvolvido com o objetivo de checar o tempo de resposta de mÃ
 
 ## Requisitos
 
-- Python 3.8+
 - DependÃªncias listadas em `requirements.txt` (ex.: `ping3`, `rich`).
 
 ## Como executar
@@ -30,6 +29,8 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+Em Linux, se retornar erro **PermissionError** use `sudo <python-command> main.py` (exemplo: `sudo python3 main.py`)
 
 Use Ctrl+C para encerrar.
 
